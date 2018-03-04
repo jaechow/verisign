@@ -27,6 +27,7 @@ When integrating with Payflow pro, you need only be concerned with passing all t
 ### Credit Card Transaction Format ###
 >**Note** The examples in this section use the syntax of the `pfpro` executable client.  Other Payflow Pro clients differ in where and how the parameter values are set, but the meaning and uses are the same.
 Use the following syntax when calling the Payflow Pro client `pfpro` to process a transaction.
+
 ```
 pfpro <HostAddress> <HostPort> "<ParmList>" <TimeOut> <ProxyAddress> <ProxyPort> <ProxyLogon> <ProxyPassword>
 ```
@@ -37,6 +38,7 @@ For example:
 ```
 
 >Arguments to the pfpro executable client
+
 |Argument 	|Required 	|Description|
 |:----------|:----------|:----------|
 |**HostAddress**|Yes    |VeriSign's host name.  For testing use ##test-payflow.verisign.com##.  For live transactions, use any IP address in the range ##216.168.252.0 to 216.168.252.20.|
@@ -49,6 +51,7 @@ endor&USER=tjohnson&PWD=x1y2z3&ACCT=5499740000000016
 |**ProxyPort\*** |No   |Proxy server port   |
 |**ProxyLogon\***|No   |Proxy server logon ID|
 |**ProxyPassword\***|No|Proxy server logon password|
-|\*User these parameters for servers behind a firewall.  Your network administrator can provide these values.|
+
+>\*User these parameters for servers behind a firewall.  Your network administrator can provide these values.
 
 
