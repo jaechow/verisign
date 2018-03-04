@@ -41,11 +41,11 @@ For example:
 
 |Argument 	|Required 	|Description|
 |:----------|:----------|:----------|
-|**HostAddress**|Yes    |VeriSign's host name.  For testing use ##test-payflow.verisign.com##.  For live transactions, use any IP address in the range ##216.168.252.0 to 216.168.252.20.|
+|**HostAddress**|Yes    |VeriSign's host name.  For testing use **test-payflow.verisign.com**.  For live transactions, use any IP address in the range **216.168.252.0 to 216.168.252.20.**|
 |**HostPort**|Yes       |Use port 443|
-|**ParmList**|Yes       |The ParmList is the list of parameters that specify the payment information for the transaction.  The quotation marks "" at the beginning and end are required.  In the example, the ParmList is `ìTRXTYPE=S&TENDER=C&PARTNER=verisign&VENDOR=SuperV
+|**ParmList**|Yes       |The ParmList is the list of parameters that specify the payment information for the transaction.  The quotation marks "" at the beginning and end are required.  In the example, the ParmList is TRXTYPE=S&TENDER=C&PARTNER=verisign&VENDOR=SuperV
 endor&USER=tjohnson&PWD=x1y2z3&ACCT=5499740000000016
-&EXPDATE=0804&AMT=123.00î`  The content of the ParmList varies by the type of transaction being processsed.  For example, a Void transaction requires a different set of parameters than does a Sale transaction.|
+&EXPDATE=0804&AMT=123.00 The content of the ParmList varies by the type of transaction being processsed.  For example, a Void transaction requires a different set of parameters than does a Sale transaction.|
 |**TimeOut** |Yes   |Time-out period for the transaction.  The minimum recommended time-out value is 30 seconds.  The VeriSign client begins tracking from the time that is sends the transaction request to the VeriSign server.|
 |**ProxyAddress\***|No  |Proxy server address   |
 |**ProxyPort\*** |No   |Proxy server port   |
