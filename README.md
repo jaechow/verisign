@@ -22,7 +22,8 @@ of the financial processing centers in the United States.
 The entire process is a real-time synchronous transaction.  Once connected, the transaction is immediately processed and the answer returned in about three seconds.  Payflow Pro does not affect or define the time periods of authoirzations, nor does it influence the approval or denial of transactions.
 
 When integrating with Payflow pro, you need only be concerned with passing all the required data for transaction authorization.  the settlement (close batch) operation is handled by VeriSign.
----
+
+
 ## Performing Credit Card Transactions ##
 ### Credit Card Transaction Format ###
 >**Note** The examples in this section use the syntax of the `pfpro` executable client.  Other Payflow Pro clients differ in where and how the parameter values are set, but the meaning and uses are the same.
