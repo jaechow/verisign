@@ -50,6 +50,6 @@ For example:
 |**ProxyLogon\***|No   |Proxy server logon ID|
 |**ProxyPassword\***|No|Proxy server logon password|
 
->\*User these parameters for servers behind a firewall.  Your network administrator can provide these values.
+>\*Use these parameters for servers behind a firewall.  Your network administrator can provide these values.
 
 
